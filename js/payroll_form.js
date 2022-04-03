@@ -76,7 +76,7 @@ function save() {
         return;
     }
     let departmentsArray = [];
-    document.querySelectorAll("[name=department]").forEach(input => {
+    document.querySelectorAll("[name=departments]").forEach(input => {
         if (input.checked) departmentsArray.push(input.value);
     });
     try {
