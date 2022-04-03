@@ -52,6 +52,7 @@ class EmployeePayrollData {
     get note() {
         return this._note;
     }
+    
     set note(note) {
         thiss._note = note;
     }
